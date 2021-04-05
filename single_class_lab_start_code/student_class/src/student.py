@@ -1,6 +1,4 @@
-        #to add text to a function 
-        # when its returning another part of the class
-        # (f{"I can talk! "}self.name)
+
 
 class Student:
 
@@ -14,5 +12,5 @@ class Student:
         return "I can talk!"
 
 
-    # def say_favourite_language(self, language):
-    #     return self.language
+    def say_favourite_language(self, language):
+        return (f"I love {language}")
